@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#e8e9ea"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lock_logo"
+        android:src="@drawable/azweigh"
+        app:layout_widthPercent="85%"
+        app:layout_heightPercent="60%"
+        app:layout_marginTopPercent="15%"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_widthPercent="70%"
+        app:layout_marginLeftPercent="15%"
+        app:layout_marginRightPercent="15%"
+        app:layout_marginBottomPercent="3%"
+        android:backgroundTint="#4589f7"
+        android:text="CONNECT"
+        android:onClick="onClickLayout"
+        android:textColor="@color/white"
+        android:id="@+id/continue_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+</android.support.percent.PercentRelativeLayout>

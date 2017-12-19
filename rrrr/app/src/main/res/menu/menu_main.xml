@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".WeightMsg">
+
+    <item android:id="@+id/Settings" android:title="@string/LacertaSettings"
+        android:icon="@mipmap/ic_settings_white_24dp"
+        android:orderInCategory="100" app:showAsAction="always"/>
+
+    <item android:id="@+id/Calibration"
+        android:title="Calibration"
+        android:orderInCategory="100" app:showAsAction="never"/>
+
+    <item android:id="@+id/History"
+        android:title="History"
+        android:orderInCategory="100" app:showAsAction="never"/>
+
+</menu>
+

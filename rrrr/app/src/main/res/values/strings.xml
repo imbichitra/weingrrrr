@@ -1,0 +1,280 @@
+<resources>
+    <string name="app_name">azWeigh</string>
+    <string name="device">Device:</string>
+    <string name="no_device">&lt;Select a device&gt;</string>
+    <string name="select_device">Select a device</string>
+    <string name="status">Status</string>
+    <string name="llsWrite">LinkLossAlert</string>
+    <string name="iasWrite">ImmediateAlert</string>
+    <string name="scanning">Scanning...</string>
+    <string name="no_ble_devices">No LE devices found.</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Not connected</string>
+    <string name="ready">Ready</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="connect">connect</string>
+    <string name="unpair">unpair</string>
+    <string name="pair">pair</string>
+    <string name="RadioButton1">Alert level high</string>
+    <string name="RadioButton2">Alert level mid</string>
+    <string name="RadioButton3">Stop alerting</string>
+    <string name="SystemId">SystemId</string>
+    <string name="ModelNumber">ModelNumber</string>
+    <string name="SerialNumber">SerialNumber</string>
+    <string name="FirmwareRevision">FirmwareRevision</string>
+    <string name="HardwareRevision">HardwareRevision</string>
+    <string name="SoftwareRevision">SoftwareRevision</string>
+    <string name="ManufactureName">ManufactureName</string>
+    <string name="RegCertDataList">RegCertDataList</string>
+    <string name="ManufactureId">    ManufactureId</string>
+    <string name="BatteryLevel">    Battery Level</string>
+    <string name="OrgId">    OrganizationId</string>
+    <string name="Txpower">    Txpower Level</string>
+    <string name="Noupdate">    No Update</string>
+    <string name="ReadTxPower">ReadTxPower</string>
+    <string name="high_alert">HIGH Alert triggered!</string>
+    <string name="low_alert">LOW Alert triggered!</string>
+    <string name="writeTxnoti">TxNoti</string>
+    <string name="readRssi">Read Rssi Value</string>
+    <string name="Readdummy">D Read</string>
+    <string name="removeBond">Remove Bond</string>
+    <string name="paired">paired</string>
+    <string name="popup_title">Quit azLock?</string>
+    <string name="popup_message">Do you want to quit this application?</string>
+    <string name="popup_yes">YES</string>
+    <string name="popup_no">NO</string>
+    <string name="ble_not_supported">Bluetooth Low Energy not supported</string>
+    <string name="scan">Scan</string>
+    <string name="cancel">Cancel</string>
+
+
+    <string name="LacertaConnect">Connect</string>
+    <string name="LacertaDisconnect">Disconnect</string>
+    <string name="LacertaSettings">Settings</string>
+    <string name="LacertaChangeDevice">Change Door</string>
+    <string name="LacertaStatus">Status</string>
+    <string name="LacertaAdd">New</string>
+    <string name="LacertaDelete">Delete</string>
+    <string name="LacertaSetup">Calibration</string>
+    <string name="LacertaKey">Key</string>
+    <string name="LacertaDevice">Device</string>
+    <string name="LacertaAppName">azLacerta</string>
+    <string name="LacertaDoorName">azLock</string>
+    <string name="LacertaAbout">About</string>
+    <string name="LacertaHelp">Help</string>
+    <string name="LacertaSignIn">New Login</string>
+    <string name="LacertaSignInDone">Login</string>
+    <string name="LacertaNewPIN">New PIN</string>
+    <string name="LacertaConfirmPIN">Confirm PIN</string>
+    <string name="LacertaEnterPassword">Enter PIN</string>
+    <string name="LacertaCancel">Cancel</string>
+    <string name="LacertaLogin">Login</string>
+    <string name="LacertaPIN">PIN</string>
+    <string name="LacertaHistory">History</string>
+    <string name="LacertaLog">Log</string>
+    <string name="LacertaGuests">Guests</string>
+    <string name="LacertaSelftest">Diagnosis</string>
+    <string name="LacertaEditProfile">Edit Profile</string>
+    <string name="LacertaCalibHint">Check the device setup… Please read guide carefully before
+        hitting Start button</string>
+    <string name="LacertaCalibStart">Start</string>
+    <string name="LacertaIntroText">Introduction</string>
+    <string name="LacertaIntroDetailsText">User guide about how to control Lacerta from any Smartphone</string>
+    <string name="LacertaInstallText">Installation</string>
+    <string name="LacertaInstallDetailsText">Installation Steps</string>
+    <string name="LacertaManageGuestText">Add or Delete Any Guest</string>
+    <string name="LacertaManageGuestDetailsText">Steps about how to grant access to any guest. How to disable the access</string>
+    <string name="LacertaCheckingHistoryText">Check Status</string>
+    <string name="LacertaCheckingHistoryDetailsText">Steps about how to monitor the device access.
+        Check if any intrusion or unauthorized access occurred</string>
+    <string name="LacertaDiagnosisText">Self Test</string>
+    <string name="LacertaDiagnosisDetailsText">Self Test steps</string>
+    <string name="LacertaHeaderText">Lacerta v1.0.0</string>
+    <string name="LacertaDeveloperText">Developers</string>
+    <string name="LacertaDeveloperDetailText">Somnath Kayal</string>
+    <string name="LacertaCopyrightText">© Copyright 2017</string>
+    <string name="LacertaCopyrightDetailText">Asiczen Technologies India Private Limited</string>
+    <string name="LacertaName">Name</string>
+    <string name="LacertaPhone">Phone</string>
+    <string name="LacertaGuestKey">PIN</string>
+    <string name="LacertaPersonalId">MAC Id</string>
+    <string name="LacertaEmail">Email Id</string>
+    <string name="LacertaAddressBuilding">Building</string>
+    <string name="LacertaAddressStreet">Street</string>
+    <string name="LacertaAddressCity">City</string>
+    <string name="LacertaAddressZip">Zip Code</string>
+    <string name="LacertaVisitorsButton">OK</string>
+    <string name="LacertaAddGuests">Details</string>
+    <string name="LacertaExitWarning">Do You Want To Leave</string>
+    <string name="LacertaExit">Exit Lacerta</string>
+    <string name="LacertaDeviceName">Name</string>
+    <string name="LacertaDeviceDetails">Details</string>
+    <string name="LacertaDeviceStatus">not connected</string>
+    <string name="LacertaDatePicker">Set Date</string>
+    <string name="LacertaTimePicker">Set Time</string>
+    <string name="LacertaGuestInfo">Remove</string>
+    <string name="LacertaHistoryInfo">Remove</string>
+    <string name="LacertaDiagnosisKey">Reset Key</string>
+    <string name="LacertaDiagnosisCal">Reset Calibration</string>
+    <string name="LacertaDiagnosisSts">Reset Status</string>
+    <string name="LacertaDiagnosisMode">Reset Mode</string>
+    <string name="LacertaDiagnosisReset">Reset All</string>
+    <string name="LacertaDuration">Duration</string>
+    <string name="LacertaKeyButton">OK</string>
+    <string name="LacertaDiagnosisAccess">Test Lock</string>
+    <string name="LacertaDoorNameHint">Door</string>
+    <string name="LacertaGuestGroup">Group</string>
+    <string name="LacertaGroup">Group</string>
+    <string name="LacertaGuestDateHint">Date Of Access</string>
+    <string name="LacertaGuestDate">Enter</string>
+    <string name="LacertaFamilyDateHint">Start Date</string>
+    <string name="LacertaFamilyDate">Enter</string>
+    <string name="LacertaStartDate">Start Date</string>
+    <string name="LacertaEndDate">End Date</string>
+    <string name="LacertaDateHint">August 19, 2015</string>
+    <string name="LacertaAddToGuest">Guest Access</string>
+    <string name="LacertaAddToFriend">Friend Access</string>
+    <string name="LacertaAddToFamily">Family Member Access</string>
+    <string name="LacertaOK">OK</string>
+    <string name="LacertaDurationText">Set Date and Time</string>
+    <string name="LacertaVisitorOK">Set Group</string>
+    <string name="LacertaVisitorCancel">Cancel</string>
+    <string name="LacertaTimeHint">6:30 AM</string>
+    <string name="LacertaMacText">Get Key</string>
+    <string name="LacertaShow">Refresh</string>
+    <string name="LacertaIgnore">Ignore</string>
+    <string name="LacertaVisitorName">Guest</string>
+    <string name="LacertaLikeusText">Visit us </string>
+    <string name="LacertaMoreInfoText">For more info visit </string>
+    <string name="LacertaEdit">Edit</string>
+    <string name="LacertaSsid">Access Point Name</string>
+    <string name="LacertaPasswd">Password</string>
+    <string name="LacertaIpaddr">Router IP Address</string>
+    <string name="LacertaPort">Router Port Number</string>
+    <string name="LacertaSecurity">Security Type</string>
+    <string name="LacertaNext">Next</string>
+    <string name="LacertaProfile">Profile</string>
+    <string name="LacertaDisablewifi">Turn off Wi-Fi</string>
+    <string name="LacertaNoPIN">Continue without PIN</string>
+    <string name="title_activity_master_registration">MasterRegistrationActivity</string>
+    <string name="LacertaViewGuest">View Guests</string>
+    <string name="LacertaAddGuest">Register Guest</string>
+    <string name="LacertaRefresh">Refresh</string>
+    <string name="LacertaAlarm">Set Alarm</string>
+    <string name="LacertaDateTime">Set Date and Time</string>
+    <string name="LacertaFactoryReset">Format Device</string>
+    <string name="LacertaAltMode">Set Recovery Device</string>
+    <string name="LacertaGuide">Guide</string>
+    <string name="LacertaDeviceInfo">Device Info</string>
+    <string name="LacertaGuestName">Name of The Guest</string>
+    <string name="LacertaMobileNumber">+999999999999</string>
+    <string name="LacertaEmailAddress">abc@xyz.com</string>
+    <string name="LacertaRegister">Register</string>
+    <string name="LacertaDistanceHint">0</string>
+    <string name="LacertaRemote">Remote</string>
+
+    <string name="GuideIntroText">
+        Thank you for using azLock! Please select a help topic from the items below. It is highly
+        recommended that all users read the Basics sections in order to become familiar with a few
+        features of azLock.
+    </string>
+    <string name="TutorialIntroText">
+        This tutorial takes about two minutes. You will get much more out of azLock if you read it.
+    </string>
+    <string name="ThreeDotsOption">
+        The "Three Dots" main menu contains general features like Guests, History of Lock Access,
+        Edit user profile, change pin, Change Door.
+    </string>
+    <string name="SettingsOption">
+        The "Settings" menu to the left of it, controls your door in various way. You can use it
+        to set the device time, calibrate device, set alternate phone as owner, Diagnosis,
+        Remote Setup and also fetch the device status.
+    </string>
+
+    <string name="hint_name">Full Name</string>
+    <string name="hint_door_name">Door Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_door_name">Enter door name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name="err_msg_pin_empty">PIN cannot be empty</string>
+    <string name="err_msg_pin_length">PIN length must be 4</string>
+    <string name="err_msg_pin_pattern">PIN must contains number only</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+</resources>

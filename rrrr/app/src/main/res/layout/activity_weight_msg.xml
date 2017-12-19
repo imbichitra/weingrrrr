@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:shape="rectangle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ssahoo.azlockble.WeightMsg">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="000000 "
+        android:background="@drawable/textfield"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="144dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/textView" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kg"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="32dp" />
+
+    <android.support.percent.PercentRelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+        <!--<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            app:layout_widthPercent="7.5%"
+            app:layout_heightPercent="5%"
+            app:layout_marginLeftPercent="4%"
+            android:id="@+id/notification_textView"
+            android:background="@drawable/circle_button_selector"
+            android:layout_centerVertical="true" />-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/battery_imageView"
+            android:src="@mipmap/ic_battery_full_black_36dp"
+            android:rotation="270"
+            android:tint="@color/dimgray"
+            app:layout_marginRightPercent="3%"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22%"
+            android:textSize="14dp"
+            app:layout_marginRightPercent="1%"
+            android:id="@+id/battery_percent_textView"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/battery_imageView" />
+
+    </android.support.percent.PercentRelativeLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:text="Store"
+        android:visibility="visible"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="216dp"
+        android:layout_marginEnd="38dp"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignEnd="@+id/textView" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tare"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/mybutton"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="216dp"
+        android:layout_marginBottom="49dp"
+        android:layout_marginStart="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:text="battery" />
+
+
+</RelativeLayout>

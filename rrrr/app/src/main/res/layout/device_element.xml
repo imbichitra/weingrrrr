@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:textColor="@android:color/black"
+    >
+
+    <TextView
+        android:id="@+id/paired"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paired"
+        android:visibility="gone"
+        android:textColor="@android:color/black"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/rssi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/paired"
+        android:textColor="@android:color/black"
+        android:text="-49"
+        android:layout_alignParentRight="true"
+        app:layout_marginTopPercent="1%"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_marginTopPercent="1%"
+        android:textColor="@android:color/black"
+        android:text="azLock"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_marginBottomPercent="1%"
+        android:layout_below="@+id/name"
+        android:textColor="@android:color/black"
+        android:text="12:43:21:65:FF"
+        android:textSize="10dp" />
+
+</android.support.percent.PercentRelativeLayout>

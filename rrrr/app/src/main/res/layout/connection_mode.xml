@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/light_blue"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/azlock_imageView"
+        android:src="@mipmap/img_azlock"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Select Connection Type"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:id="@+id/textView8"
+            android:layout_marginBottom="20dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/holder_linearLayout">
+            <LinearLayout
+                android:clickable="true"
+                android:layout_marginRight="10dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:id="@+id/ble_linearLayout"
+                android:onClick="onClickBleLayout"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+                <ImageView
+                    android:id="@+id/connect_wifi_imageView"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="7dp"
+                    android:src="@mipmap/ic_connection_p2p"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bluetooth"
+                    android:textColor="@color/white"
+                    android:id="@+id/textView7"
+                    android:layout_marginTop="6dp"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+            <LinearLayout
+
+                android:clickable="true"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/internet_linearLayout"
+                android:onClick="onClickInternetLayout"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/connect_internet_imageView"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="7dp"
+                    android:src="@mipmap/ic_connection_internet"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Internet"
+                    android:textColor="@color/white"
+                    android:id="@+id/textView6"
+                    android:layout_marginTop="6dp"
+                    android:layout_gravity="center"
+                    android:layout_below="@+id/connect_internet_imageView" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Internet Connection"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="15sp"
+            android:id="@+id/messageTextView"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/holder_linearLayout"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/imei_textView"
+            android:layout_width="190dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/messageTextView"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="IMEI - 345231235418796" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\u00a9 Asiczen Technologies 2017"
+        android:id="@+id/textView2"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
